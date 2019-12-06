@@ -1,0 +1,35 @@
+{
+  "name": "@cweise/redux-valacts",
+  "version": "0.1.0",
+  "description": "Create redux actions and validate their payload. Can be used next to redux-actions library.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --ignore '**/*.test.js'",
+    "test": "jest src",
+    "prebuild": "rimraf lib",
+    "prepare": "npm run test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cweise/redux-valacts.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-actions"
+  ],
+  "author": "Christoph Weise-Onnen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cweise/redux-valacts/issues"
+  },
+  "homepage": "https://github.com/cweise/redux-valacts#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "yup": "^0.27.0"
+  }
+}
