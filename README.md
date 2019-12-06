@@ -4,11 +4,11 @@ redux-valacts is a small companion library to create flux like redux-actions wit
 
 ## Install
 
-```javascript
+```bash
 npm i @cweise/redux-valacts yup --save
 ```
 
-```javascript
+```bash
 yarn add @cweise/redux-valacts yup
 ```
 
